@@ -16,7 +16,6 @@ header{
 nav{
     display: flex;
     justify-content: flex-end;
-    
 }
 .logoHeader{
     display: flex;
@@ -89,8 +88,8 @@ h3 {
     justify-content: space-between;
     cursor: pointer;
 }
-:hover .secondSectionMain img{
-
+:hover figure{
+    transform: scale(101%);
 }
 footer{
     display: flex;
@@ -106,7 +105,6 @@ footer{
     width: 35vw;
     height: 8vh;
     cursor: pointer;;
-
 }
 .textoFooter{
     display: flex;
@@ -119,7 +117,6 @@ p{
     width: 35vw;
     font-family: "Montserrat", sans-serif;
     font-size: 12px;
-    
 }
 h4{
     display: flex;
