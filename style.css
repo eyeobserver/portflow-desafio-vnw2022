@@ -33,7 +33,9 @@ nav{
     width: 30vw;
     color: gray;
     cursor: pointer;
-
+}
+:hover .menuList{
+    transform: scale(102%);
 }
 div{
     background-image: url(./assets/laranja\ azul\ recorte.png);
@@ -50,7 +52,10 @@ h1 {
     font-size: 50px;
     color: #ffffff  ;
     font-family: "Montserrat", sans-serif;
-  }
+}
+:hover h1{
+    transform: scale(105%);
+}
 h3 {
     display: flex;
     justify-content: center;
@@ -60,8 +65,6 @@ h3 {
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
     cursor: pointer;;
-   
-
   }
 .textoMain{
     display: flex;
@@ -72,13 +75,23 @@ h3 {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  height: 150vh;
+  height: 126vh;
+  width: 90vw;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  margin-left: 5vw;
+  margin-right: 8vw;
+  border: solid;
 }
 .secondSectionMain img{
     height: 40vh;
     justify-content: space-between;
+    cursor: pointer;
+}
+:hover .secondSectionMain img{
+
 }
 footer{
     display: flex;
@@ -104,9 +117,9 @@ footer{
 p{
     display: flex;
     justify-content: space-around;
-    width: 41vw;
+    width: 35vw;
     font-family: "Montserrat", sans-serif;
-    font-size: 15px;
+    font-size: 12px;
     
 }
 h4{
