@@ -126,3 +126,32 @@ h4{
     height: -1vh;
     font-family: "Montserrat", sans-serif;
 }
+@media (max-width: 500px) {
+    header, .logoHeader {
+        width: 100vw;
+        margin-left: 5vw;
+    }
+    h1 {
+        margin-left: 8vw; 
+    }
+    h3 {
+        margin-left: -25vw;
+        margin-top: 15vw;
+        width: 100vW;
+    }
+    div {
+        background-image: none;
+        background-color: rgb(0, 140, 255);
+    }
+    .menuList {
+        display: none;
+    }
+    .secondSectionMain img{
+        height: none;
+        justify-content: none;
+    }
+    .logoHeader{
+        justify-content: center
+    }
+    }
+}
